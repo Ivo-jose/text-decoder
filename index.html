@@ -7,31 +7,60 @@
         <title>Text decoder</title>
         <!-- CSS -->
         <link rel="stylesheet" href="./css/style.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/Logo.ico" type="image/x-icon">
+        <!-- Font Awesome -->
+       <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
     </head>
     <body>
+        <!-- Barra de Navegação -->
         <header class="header">
             <nav class="header__nav">
-                <a class="header__nav__link" href="index" target="_blank">
+                <a class="header__nav__link" href="index.html">
                     <img src="./assets/Logo.svg" alt="logo_alura">
                 </a>
             </nav>
         </header>
+        <!-- Container Principal -->
         <main class="container">
+            <!-- Seção da inserção do texto -->
             <section class="container__input">
-                <textarea name="text" id="text" cols="30" rows="10"></textarea>
-                <div>
-                    <button>Criptografar</button>
-                    <button>Descriptografar</button>
+                <input name="text" id="container__input__text"  placeholder="Digite seu texto aqui..."></input>
+                <div class="container__input__btnAndInfo">
+                    <div class="container__input__btnAndInfo__info">
+                       <img src="./assets/bi_exclamation-circle-fill.svg" alt="warning icon">
+                       <small>Apenas letras minúsculas e sem acento</small>
+                    </div>
+                    <div class="container__input__btnAndInfo__btns">
+                       <button class="btn" id="encrypt">Criptografar</button>
+                       <button class="btn" id="decrypt">Descriptografar</button>
+                    </div>
                 </div>
             </section>
+            <!-- Seção da saída do texto criptografado -->
             <section class="container__output">
-                <img src="./assets/High quality products 1 1.svg" alt="">
-                <h2>Mensagem não encontrada</h2>
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <div class="container__output__content">
+                    <div class="container__output__content__img">
+                        <img src="./assets/High quality products 1 1.svg" alt="Search image">
+                    </div>
+                    <div class="container__output__content__msg">
+                      <h2>Nenhuma mensagem encontrada</h2>
+                      <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
             </section>
         </main>
+        <!-- Rodapé -->
         <footer class="footer">
-            <p>Desenvolvido por Ivo Gonçalves.</p>
+            <p>Developed by Ivo Gonçalves 2024.</p>
+            <div class="footer__link">
+                <a href="https://www.linkedin.com/in/ivo-jose-developer/" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                </a>
+                <a href="https://github.com/Ivo-jose" target="_blank">
+                    <i class="fa-brands fa-github fa-lg"></i>
+                </a>
+            </div>
         </footer>
     </body>
 </html>
