@@ -19,13 +19,21 @@
                 <a class="header__nav__link" href="index.html">
                     <img src="./assets/Logo.svg" alt="logo_alura">
                 </a>
+                <div class="header__nav__media">
+                    <a href="https://www.linkedin.com/in/ivo-jose-developer/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/Ivo-jose" target="_blank">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                </div>
             </nav>
         </header>
         <!-- Container Principal -->
         <main class="container">
             <!-- Seção da inserção do texto -->
             <section class="container__input">
-                <input name="text" id="container__input__text"  placeholder="Digite seu texto aqui..."></input>
+                <textarea name="text" id="container__input__text" rows="40"  placeholder="Digite ou cole seu texto aqui..."></textarea>
                 <div class="container__input__btnAndInfo">
                     <div class="container__input__btnAndInfo__info">
                        <img src="./assets/bi_exclamation-circle-fill.svg" alt="warning icon">
@@ -33,7 +41,7 @@
                     </div>
                     <div class="container__input__btnAndInfo__btns">
                        <button class="btn" id="encrypt">Criptografar</button>
-                       <button class="btn" id="decrypt">Descriptografar</button>
+                       <button class="btn decrypt">Descriptografar</button>
                     </div>
                 </div>
             </section>
@@ -50,17 +58,7 @@
                 </div>
             </section>
         </main>
-        <!-- Rodapé -->
-        <footer class="footer">
-            <p>Developed by Ivo Gonçalves 2024.</p>
-            <div class="footer__link">
-                <a href="https://www.linkedin.com/in/ivo-jose-developer/" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-lg"></i>
-                </a>
-                <a href="https://github.com/Ivo-jose" target="_blank">
-                    <i class="fa-brands fa-github fa-lg"></i>
-                </a>
-            </div>
-        </footer>
+        <script src="./js/app.js" defer></script>
     </body>
 </html>
+
