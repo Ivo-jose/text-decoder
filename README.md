@@ -1,4 +1,13 @@
-This is a simple web application for encrypting and decrypting text using a vowel substitution algorithm. The application was developed with HTML, CSS, and JavaScript.
+This is a simple web application for encrypting and decrypting text using a vowel substitution algorithm. The application was developed with HTML, CSS, and JavaScript.  
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## Page link:
+[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://ivo-jose.github.io/text-decoder/)
+
+## Link project design:
+[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=16-802&mode=design&t=1UjMsLs1G5YUH0Ql-0)
 
 ## Features:
 
