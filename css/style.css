@@ -279,7 +279,7 @@ body {
     }    
 }
 
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 343px) and (max-width: 767px) {
     .container {
         flex-direction: column;
         gap: 40px;
@@ -292,6 +292,14 @@ body {
 
     #container__input__text {
         width: 90%;
+    }
+
+    .container__input__btnAndInfo {
+        width: 90%;
+    }
+
+    .container__input__btnAndInfo__btns button {
+        width: 100%;
     }
 
     #container__input__text::placeholder {
